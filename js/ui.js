@@ -51,7 +51,7 @@ export function showLevelOverlay() { updateHUD(); renderLives(); show(State.dom.
 export function hideLevelOverlay() { hide(State.dom.levelOverlay); }
 
 export function showGameOver(level) {
-  State.dom.lostLevelText.textContent = `You lost on level ${level}`;
+  State.dom.lostLevelText.textContent = `Perdiste en el nivel ${level}`;
   show(State.dom.gameOverOverlay);
 }
 export function hideGameOver() { hide(State.dom.gameOverOverlay); }
